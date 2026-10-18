@@ -1,0 +1,48 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/appsettings.*.local.json
+
+# .NET build output
+**/bin/
+**/obj/
+[Bb]uild/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+artifacts/
+.artifacts/
+TestResults/
+*.log
+
+# IDE
+.idea/
+.vs/
+.vscode/
+.history/
+
+# User-specific files
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Packages and temporary files
+**/packages/
+*.nupkg
+*.snupkg
+node_modules/
+
+# SQL Server local database files
+*.mdf
+*.ldf
+*.ndf
+
+# Publish and deployment files
+*.pubxml
+*.publishsettings
